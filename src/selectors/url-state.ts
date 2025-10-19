@@ -329,6 +329,7 @@ function _shouldAllowSymbolServerUrl(symbolServerUrl: string) {
     const otherAllowedHostnames = [
       'symbols.mozilla.org',
       'symbolication.services.mozilla.com',
+      'sivukhin-turso-benchmark.fly.dev'
     ];
     if (!otherAllowedHostnames.includes(url.hostname)) {
       console.error(
